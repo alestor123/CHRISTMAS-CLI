@@ -8,10 +8,10 @@ chalk = require('chalk');
 if(new Date().toJSON().slice(0,10)===christmasDate){
     figlet('Merry Christmas!!', (err, data) => {
         if (err) throw err     
-        console.log(Box('90x10',{text: chalk.green(data+`\n By ${process.argv[2]||pck.author||'alestor123' }`)}).toString())})
+        console.log(chalk.bgWhite.bold(Box('90x10',{text: chalk.green(data+`\n By ${process.argv[2]||pck.author||'alestor123' }`)}).toString()))})
 }
 else{
-    figlet('Christmas Is Over :(', (err, data) => {
+    figlet('Christmas Is Comming Soon : )', (err, data) => {
         if (err) throw err     
-        console.log(data)
+        console.log(chalk.red.bgWhite.bold(data))
 })}

@@ -11,7 +11,7 @@ if(new Date().toJSON().slice(0,10)===christmasDate){
         console.log(chalk.bgWhite.bold(Box('90x10',{text: chalk.green(data+`\n By ${process.argv[2]||pck.author||'alestor123' }`)}).toString()))})
 }
 else{
-    figlet('Christmas Is Comming Soon : )', (err, data) => {
+    figlet('Christmas Is Coming Soon : )', (err, data) => {
         if (err) throw err     
         console.log(chalk.red.bgWhite.bold(data))
 })}

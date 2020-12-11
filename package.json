@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "This is a simple code for christmas greet cli",
   "main": "App.js",
+  "bin": {
+    "christmas-cli": "App.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -25,13 +25,13 @@
 
 # Installation
 
-``npm i christmas -g ``
+``npm i christmas-cli -g ``
 
 # Usage
 
-``christmas <Your username>``
+``christmas-cli <Your username>``
 
 # Example
-``christmas alestor123 ``
+``christmas-cli alestor123 ``
 
 # New Year Wish Comming Soon 

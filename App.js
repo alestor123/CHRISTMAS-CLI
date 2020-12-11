@@ -2,4 +2,9 @@
 
 var Box = require("cli-box"),
 figlet = require('figlet'),
+pck = require('./package.json'),
 chalk = require('chalk');
+figlet('Merry Christmas!!', (err, data) => {
+    if (err) throw err     
+console.log(Box('90x10',{text: chalk.green(data+`\n By ${pck.author}`) , vAlign: "center"
+, hAlign: "center"}).toString())})

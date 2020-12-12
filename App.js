@@ -21,5 +21,5 @@ else{
 function wish(wishes){
     figlet(wishes, (err, data) => {
         if (err) throw err     
-        console.log(chalk.bgWhite.bold(Box('90x10',{text: chalk.green(data+`\n By ${process.argv[2]||pck.author||'alestor123' }`)}).toString()))})
+        console.log(chalk.bgWhite.bold(Box('90x10',{text: chalk.green(data+`\n By ${process.argv[2]||'alestor123' }`)}).toString()))})
 }

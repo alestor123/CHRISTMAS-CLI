@@ -13,10 +13,10 @@ else if(newyearDate===now){
     wish('Happy New Year')
 }
 else if(now > christmasDate){
-    wait('New Year Is Comming !!')
+    wait('New Year Is On Its Way !!')
 }
 else{
-    wait('Christmas Is Coming Soon : )')
+    wait('Christmas Is On Its Way : )')
 }
 function wish(wishes){
     figlet(wishes, (err, data) => {

@@ -1,6 +1,6 @@
 {
   "name": "christmas-cli",
-  "version": "1.4.5 ",
+  "version": "1.4.5",
   "description": "This is a simple code for christmas greet cli",
   "main": "App.js",
   "bin": {

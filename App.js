@@ -6,7 +6,6 @@ christmasDate = new Date(`Dec 25`).toJSON().slice(5,10),
 newyearDate = new Date('Jan 1').toJSON().slice(5,10),
 now = new Date().toJSON().slice(5,10),
 chalk = require('chalk'); 
-console.log(now)
 if(now===christmasDate){
     wish('Merry Christmas')
 }
